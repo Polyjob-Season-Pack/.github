@@ -1,9 +1,16 @@
-# Polyjob Season Pack Project
+# Polyjob Season Pack Project (PJSP)
 
 This project was developed as part of the course "Internet and Web Architecture (IWA)" during the 5th year at Polytech Montpellier.
+
 ## Project Description
 
 Polyjob Season Pack is an application designed for seasonal worker recruiters and an admin user. It provides essential functions for managing recruiters, seasonal job offers, candidate recommendations, recruitment processes, and feedback.
+
+## Project Overview
+
+The PJSP project is divided into two repositories:
+- [Front-end](https://github.com/Polyjob-Season-Pack/PJSP-Front): Developed in React Native with Expo, providing an application for recruiters and an admin.
+- [Backend](https://github.com/orgs/Polyjob-Season-Pack/repositories): Consists of multiple microservices handling different functionalities like recruiter, job, offer, authentication, subscription, candidate, rating, and a gateway.
 
 ### Main Functionalities
 
@@ -27,7 +34,9 @@ Polyjob Season Pack is an application designed for seasonal worker recruiters an
 
 ## Branches
 
-The project repository includes at least two main branches: `dev` and `prod` for each microservice, allowing for development and production-ready code separation.
+The project repository includes at least two main branches for each microservice, allowing for development and production-ready code separation:
+- `dev` for development
+- `prod` for production
 
 ## Usage
 
@@ -40,6 +49,8 @@ The application has a frontend built in React Native and can be tested on the An
 - `Candidate`, `Rating`, `Offer`, `Authentication`, `RecruiterInfo`, `Gateway`, `Subscription`, `Job`, `Recruiter`: Individual microservices handling specific functionalities.
 - `Frontend`: React Native application built with Expo and Redux.
 
-## Team
+## Team Members
 
-The team comprises Alexis FONDARD MARTIN, Dorian CORREIA-MATEUS & Laura BENAITON.
+- Alexis FONDARD MARTIN
+- Laura BENAITON
+- Dorian CORREIA-MATEUS
